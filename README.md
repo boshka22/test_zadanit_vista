@@ -78,46 +78,17 @@ diary-api/
 1. **Клонировать репозиторий**
 ```bash
 git clone https://github.com/yourusername/diary-api.git
-cd diary-api
 ```
 
-2. **Создать виртуальное окружение**
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Linux/macOS
-# .venv\Scripts\activate   # Windows
-```
-
-3. **Установить зависимости**
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-4. **Настроить окружение**
+2. **Настроить окружение**
 ```bash
 cp .env.example .env
 # Отредактировать .env, указав свои параметры БД
 ```
 
-5. **Создать базу данных**
-```bash
-createdb diary_db
-# или через psql: CREATE DATABASE diary_db;
-```
 
-6. **Применить миграции**
-```bash
-alembic upgrade head
-```
-
-7. **Запустить приложение**
-```bash
-uvicorn app.main:app --reload
-```
-
-### Вариант 2: Запуск через Docker
-
+3. **Запустить приложение**
+4. 
 ```bash
 docker-compose up --build
 ```
