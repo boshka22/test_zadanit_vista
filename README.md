@@ -88,7 +88,7 @@ cp .env.example .env
 
 
 3. **Запустить приложение**
-4. 
+   
 ```bash
 docker-compose up --build
 ```
