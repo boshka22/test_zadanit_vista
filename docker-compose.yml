@@ -17,6 +17,7 @@ services:
     container_name: diary-app
     depends_on:
       - db
+    restart: on-failure
     environment:
       DATABASE_URL: postgresql+asyncpg://diary_user:diary_password@db:5432/diary_db
     ports:
