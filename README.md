@@ -146,5 +146,5 @@ mypy app
 
 ## 📄 Лицензия
 
-MIT License. Подробнее в файле [LICENSE](LICENSE).
+MIT License. 
 
